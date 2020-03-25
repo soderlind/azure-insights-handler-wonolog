@@ -1,0 +1,35 @@
+{
+	"name": "soderlind/azure-insights-handler-wonolog",
+	"type": "wordpress-dropin",
+	"license": "GPL-2.0-or-later",
+	"description": "Azure Insights handler for Wonolog.",
+	"homepage": "https://github.com/soderlind/azure-insights-handler-wonolog",
+	"authors": [
+		{
+			"name": "Per Søderlind",
+			"email": "per@soderlind.no",
+			"homepage": "https://soderlind.no"
+		}
+	],
+	"keywords": [
+		"wordpress",
+		"wonolog",
+		"azure insights",
+		"monolog"
+	],
+	"support": {
+		"issues": "https://github.com/soderlind/azure-insights-handler-wonolog/issues"
+	},
+	"require": {
+		"php": ">=5.6",
+		"composer/installers": "~1.0",
+		"inpsyde/wonolog": "^1.0.3",
+		"app-insights-php/monolog-handler": "^0.2.1",
+		"app-insights-php/client": "^0.2.3"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.3",
+		"dealerdirect/phpcodesniffer-composer-installer": "*",
+		"wp-coding-standards/wpcs": "*"
+	}
+}
